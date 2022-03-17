@@ -20,5 +20,6 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("mx.tecnm.tepic.ladm_u2_practica1_coposdenieve", appContext.packageName)
+        
     }
 }
